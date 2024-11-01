@@ -1,10 +1,9 @@
 import Circle from '../../components/atoms/Circle/Circle'
-import Footer from '../../components/molecules/Footer/Footer'
 import Header from '../../components/molecules/Header/Header'
 import ImgSection from '../../components/molecules/ImgSection/ImgSection'
-import "./principal.css"
+import "./Home.css"
 
-const Principal = () => {
+const Home = () => {
   return (
     <main className='container'>
       <Header className="header"/>
@@ -14,4 +13,4 @@ const Principal = () => {
   )
 }
 
-export default Principal
+export default Home
