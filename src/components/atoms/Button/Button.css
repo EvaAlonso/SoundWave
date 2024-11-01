@@ -1,0 +1,16 @@
+.btn-cta{
+  width: 100px;
+  height: 50px;
+  background-color: var(--Button-bck);
+  color: white;
+  border: 1px solid var(--Button-bck);
+  border-radius: 5px;
+}
+.btn-cta:hover{
+  background-color: var(--Button-hover);
+  border: 1px solid var(--Button-hover);
+}
+.btn-cta:focus{
+  background-color: var(--Button-focus);
+  border: 1px solid var(--Button-focus);
+}

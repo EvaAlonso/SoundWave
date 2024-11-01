@@ -1,0 +1,6 @@
+h1 {
+  font-size: larger;
+  span{
+    color: var(--Accent-text);
+  }
+}
