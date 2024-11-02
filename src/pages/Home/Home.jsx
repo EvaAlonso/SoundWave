@@ -8,7 +8,9 @@ const Home = () => {
     <main className='container'>
       <Header className="header"/>
       <ImgSection/>
-      <Circle />
+      <Circle className="circle1"/>
+      <Circle className="circle2"/>
+      <Circle className="circle3"/>
     </main>
   )
 }

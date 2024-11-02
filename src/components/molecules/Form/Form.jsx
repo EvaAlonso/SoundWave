@@ -12,8 +12,7 @@ const Form = () => {
       <Input type="email"/>
       <Label text="Password:"/>
       <Input type="password"/>
-      <Button title="Join Now" style={{color: "white",
-    width: 500}}/>
+      <Button title="Join Now" className="button-form"/>
     </form>
   )
 }

@@ -1,11 +1,11 @@
 
-import "./JoinButton.css";
 
 
-function Button({title, withBtn}) {
+
+function Button({title, className}) {
 
   return (
-    <button with={withBtn} className="btn-cta" >{title}</button>
+    <button className={className} >{title}</button>
   )
 }
 

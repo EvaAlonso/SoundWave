@@ -7,12 +7,12 @@ import "./ImgSection.css"
 
 function ImgSection() {
   return (
-    <section>
+    <section className="imgsection">
       <img className="img-girl" src={img} alt="Imagen perfil de una chica" />
       <div className="section-text">
       
       <Explanation/>
-      <Button title="Join Now"/>
+      <Button title="Join Now" className='btn-cta'/>
      
       </div>
       

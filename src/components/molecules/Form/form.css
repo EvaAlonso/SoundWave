@@ -1,14 +1,27 @@
 .form-section{
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   height: 300px;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 20px 50px;
   background-color: var(--Black-secondary);
   border-radius: 10px;
-  /* .button-form{
+  .button-form{
     color: var(--white);
-    width: 500px;
-  } */
+    width: 100%;
+    height: 50px;
+    background-color: var(--Button-bck);
+    color: white;
+    border: 1px solid var(--Button-bck);
+    border-radius: 5px;
+  }
+  .button-form:hover{
+    background-color: var(--Button-hover);
+    border: 1px solid var(--Button-hover);
+  }
+  .button-form:focus{
+    background-color: var(--Button-focus);
+    border: 1px solid var(--Button-focus);
+  }
 }

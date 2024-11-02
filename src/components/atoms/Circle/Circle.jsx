@@ -1,9 +1,9 @@
 import './circle.css'
 
-const Circle = () => {
+const Circle = ({className}) => {
   return (
     <>
-    <div className='circle circle1'></div>
+    <div className= {className}></div>
     
     </>
     
