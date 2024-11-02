@@ -1,5 +1,6 @@
 import "./social.css"
-import twitter from "../../../assets/twitter.svg"
+import twitter from "../../../assets/twitter.svg";
+import facebook from "../../../assets/icons8-facebook-24.svg"
 const Social = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Social = () => {
         <span>Twitter</span>
       </li>
       <li>
-        <img src={twitter} alt="logo de Facebook" />
+        <img src={facebook} alt="logo de Facebook" />
         <span>Facebook</span>
       </li>
     </ul>

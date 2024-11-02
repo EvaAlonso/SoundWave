@@ -5,8 +5,10 @@ import "./footer.css"
 function Footer() {
   return (
     <footer className="footer">
+      <div className="inner-footer">
     <Contact/>
     <Social/>
+    </div>
     </footer>
   )
 }

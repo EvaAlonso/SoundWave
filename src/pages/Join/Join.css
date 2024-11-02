@@ -1,6 +1,19 @@
-.prueba{
-  color: red;
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-}
+  .join-container{
+      display: grid;
+      min-height: 100dvh;
+      grid-template-rows: auto 1fr auto;
+  
+  }
+ /*  .circle1-join{
+    left: -150px;
+    bottom: -10px;
+    top: 55vh;
+  }
+  .circle2-join{
+    left: 15vw;
+    top: -10vh;
+  }
+  .circle3-join{
+    background-color: transparent;
+  }
+ */

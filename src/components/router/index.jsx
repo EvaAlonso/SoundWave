@@ -5,24 +5,7 @@ import Discover from "../../pages/Discover/Discover";
 import Join from "../../pages/Join/Join";
 
 export const router = createBrowserRouter([
-  /* {
-    path: "/",
-    element: <Layout />,
-    children: [
-      {
-        path: "/",
-        element: <Home />
-      },
-      {
-        path: "/join",
-        element: <Join />
-      },
-      {
-        path: "/discover",
-        element: <Discover />
-      }
-    ]
-  }, */
+ 
 
   {
     path: "/",

@@ -1,6 +1,7 @@
 import Button from "../../atoms/Button/Button"
 import Explanation from "../../atoms/Explanation/Explanation"
 import img from "../../../assets/landing-page-girl.png"
+import "../../atoms/Button/JoinButton.css"
 import "./ImgSection.css"
 
 

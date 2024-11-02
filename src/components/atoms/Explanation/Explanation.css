@@ -1,4 +1,9 @@
-h1 {
-  font-weight: 400;
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
   margin-block-end: 14px;
+}
+.subtitle{
+  font-size: 28px;
 }

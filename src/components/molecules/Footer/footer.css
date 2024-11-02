@@ -1,6 +1,15 @@
 .footer{
   width: 100%;
+  height: 50px;
   background-color: var(--Black-secondary);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
+  .inner-footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+  }
 }

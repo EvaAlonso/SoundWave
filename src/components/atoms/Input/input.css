@@ -1,0 +1,6 @@
+.form-input{
+  background-color: var(--Black-secondary);
+  border: 1px solid var(--Grey-secondary);
+  height: 30px;
+  margin-block-end: 20px;
+}

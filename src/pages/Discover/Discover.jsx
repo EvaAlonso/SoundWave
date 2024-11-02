@@ -1,8 +1,12 @@
-import React from 'react'
+import Header from "../../components/molecules/Header/Header";
 
 const Discover = () => {
   return (
-    <div>Discover</div>
+    <>
+      <Header/>
+      <div>Discover</div>
+    </>
+    
   )
 }
 
