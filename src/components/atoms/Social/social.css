@@ -8,6 +8,13 @@ ul{
     align-items: center;
     img{
       margin: 10px;
+      @media(width<=500px){
+        margin: 5px;
+      }
+    }
+    @media(width<= 500px){
+      display: flex;
+      flex-direction: column;
     }
   }
 }

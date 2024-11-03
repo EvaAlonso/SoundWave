@@ -4,4 +4,8 @@ ul{
   li{
     list-style: none;
   }
+  @media(width<=500px){
+    align-items: center;
+    
+  }
 }

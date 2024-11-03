@@ -24,4 +24,9 @@
     background-color: var(--Button-focus);
     border: 1px solid var(--Button-focus);
   }
+  @media(width<=500px){
+    width: 280px;
+    height: 300px;
+    
+  }
 }

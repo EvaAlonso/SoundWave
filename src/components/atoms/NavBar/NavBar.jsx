@@ -9,7 +9,7 @@ function NavBar() {
         <Link className="link" to="/discover">Discover</Link>
         </li>
         <li>
-        <Link className="link" to="/join">Join in</Link>
+        <Link className="link" to="/join">Join <span className="mobile">in</span></Link>
         </li>
       </ul>
     </nav>

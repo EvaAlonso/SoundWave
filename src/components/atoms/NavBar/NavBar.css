@@ -11,5 +11,11 @@ nav {
         text-decoration: none;
       }
     }
+    @media(width <= 500px){
+      gap: 15px;
+      .mobile{
+        display: none;
+      }
+    }
   }
 }
